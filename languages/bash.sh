@@ -3,34 +3,34 @@
 # SHORTCUTS and HISTORY
 ##############################################################################
 
-CTRL+A  # move to beginning of line
-CTRL+B  # moves backward one character
-CTRL+C  # halts the current command
-CTRL+D  # deletes one character backward or logs out of current session, similar to exit
-CTRL+E  # moves to end of line
-CTRL+F  # moves forward one character
-CTRL+G  # aborts the current editing command and ring the terminal bell
-CTRL+H  # deletes one character under cursor (same as DELETE)
-CTRL+J  # same as RETURN
-CTRL+K  # deletes (kill) forward to end of line
-CTRL+L  # clears screen and redisplay the line
-CTRL+M  # same as RETURN
-CTRL+N  # next line in command history
-CTRL+O  # same as RETURN, then displays next line in history file
-CTRL+P  # previous line in command history
-CTRL+R  # searches backward
-CTRL+S  # searches forward
-CTRL+T  # transposes two characters
-CTRL+U  # kills backward from point to the beginning of line
-CTRL+V  # makes the next character typed verbatim
-CTRL+W  # kills the word behind the cursor
-CTRL+X  # lists the possible filename completions of the current word
-CTRL+Y  # retrieves (yank) last item killed
-CTRL+Z  # stops the current command, resume with fg in the foreground or bg in the background
+CTRL+A  # move to beginning of line # 移动到行首
+CTRL+B  # moves backward one character # 向前移动一个字符
+CTRL+C  # halts the current command # # 终止命令
+CTRL+D  # deletes one character backward or logs out of current session, similar to exit # 删除光标处的字符
+CTRL+E  # moves to end of line # 移动到行尾
+CTRL+F  # moves forward one character # 向前移动一个单词
+CTRL+G  # aborts the current editing command and ring the terminal bell # 终止当前编辑命令并按终端铃
+CTRL+H  # deletes one character under cursor (same as DELETE) # 删除光标前一个字符
+CTRL+J  # same as RETURN # 回车
+CTRL+K  # deletes (kill) forward to end of line # 删除光标后所有字符
+CTRL+L  # clears screen and redisplay the line # 清屏
+CTRL+M  # same as RETURN # 回车
+CTRL+N  # next line in command history # 历史中的下一条命令
+CTRL+O  # same as RETURN, then displays next line in history file # 回车，然后显示下调命令进入历史命令
+CTRL+P  # previous line in command history # 上一条历史命令
+CTRL+R  # searches backward # 向前搜索
+CTRL+S  # searches forward # 向后搜索
+CTRL+T  # transposes two characters # 交换光标位置的两个字符
+CTRL+U  # kills backward from point to the beginning of line # 剪切光标前至行首间的所有内容
+CTRL+V  # makes the next character typed verbatim 
+CTRL+W  # kills the word behind the cursor # 删除光标前的一个词
+CTRL+X  # lists the possible filename completions of the current word 
+CTRL+Y  # retrieves (yank) last item killed # 粘贴或恢复上次的删除
+CTRL+Z  # stops the current command, resume with fg in the foreground or bg in the background #  将当前命令放到后台，用fg命令恢复
 
-ALT+B   # moves backward one word
-ALT+D   # deletes next word
-ALT+F   # moves forward one word
+ALT+B   # moves backward one word # 向后移动一个词
+ALT+D   # deletes next word # 删除下一个词
+ALT+F   # moves forward one word 
 ALT+H   # deletes one character backward
 
 BACKSPACE  # deletes one character backward
@@ -50,10 +50,10 @@ exit      # logs out of current session
 
 env                 # displays all environment variables
 
-echo $SHELL         # displays the shell you're using
-echo $BASH_VERSION  # displays bash version
+echo $SHELL         # displays the shell you're using # 显示当前shell
+echo $BASH_VERSION  # displays bash version # 显示bash版本
 
-bash                # if you want to use bash (type exit to go back to your previously opened shell)
+bash                # if you want to use bash (type exit to go back to your previously opened shell) 
 whereis bash        # locates the binary, source and manual-page for a command
 which bash          # finds out which program is executed as 'bash' (default: /bin/bash, can change across environments)
 
